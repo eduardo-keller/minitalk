@@ -6,11 +6,11 @@
 /*   By: ekeller-@student.42sp.org.br <ekeller-@    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/17 15:43:52 by ekeller-@st       #+#    #+#             */
-/*   Updated: 2024/11/28 11:25:49 by ekeller-@st      ###   ########.fr       */
+/*   Updated: 2025/04/07 15:25:16 by ekeller-@st      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
+#include "libft.h"
 
 int	ft_printf(const char *str, ...)
 {

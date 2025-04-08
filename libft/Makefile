@@ -6,15 +6,17 @@
 #    By: ekeller-@student.42sp.org.br <ekeller-@    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/11/26 15:14:14 by ekeller-@st       #+#    #+#              #
-#    Updated: 2024/11/27 11:39:21 by ekeller-@st      ###   ########.fr        #
+#    Updated: 2025/04/07 14:38:02 by ekeller-@st      ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME = libftprintf.a
+NAME = libft.a
 
 SRC = \
 ft_putnbr.c \
 ft_printf.c \
+ft_atoi.c \
+ft_strlen.c \
 
 CC = cc
 
@@ -22,7 +24,7 @@ FLAGS = -Wall -Wextra -Werror
 
 OBJECTS = $(SRC:%.c=%.o)
 
-INCLUDES = 	ft_printf.h
+INCLUDES = 	libft.h
 
 RM = rm -f
 

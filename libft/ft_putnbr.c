@@ -6,11 +6,11 @@
 /*   By: ekeller-@student.42sp.org.br <ekeller-@    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/18 17:02:38 by ekeller-@st       #+#    #+#             */
-/*   Updated: 2024/11/27 18:37:23 by ekeller-@st      ###   ########.fr       */
+/*   Updated: 2025/04/07 15:25:19 by ekeller-@st      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
+#include "libft.h"
 
 int	ft_putnbr(int n)
 {
